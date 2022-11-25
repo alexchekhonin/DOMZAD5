@@ -10,7 +10,7 @@ int SumNumber(int numberN)
     int advance = 0;
     int result = 0;
 
-    for (int i = 0; i < counter; i++)
+    for (int i = 0; i <= counter; i++)
     {
         advance = numberN - numberN % 10;
         result = result + (numberN - advance);
